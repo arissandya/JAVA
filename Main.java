@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Main {
 	public static void Barang (String()args) {
 		Barang brg = new Barang();
-		Barang.Inputkan();
+		Brg.Inputkan();
 		Scanner input = new Scanner(System.in);
 		NamaBarang = input.nextLine();
 		HargaBarang = input.nextLine();
@@ -10,7 +10,7 @@ class Main {
 	}
 	public static void  Transaksi (String()args) {
 		Transaksi lap = new Transaksi();
-		Transaksi.Cetak();
+		Trksi.Cetak();
 		Scanner input = new Scanner(System.in);
 		NamaTransaksi = input.nextLine();
 		JenisTransaksi = input.nextLine();
