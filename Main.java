@@ -21,8 +21,8 @@ class Main {
 	public static void Admin (String()args) {
 		NamaAdmin adm = new NamaAdmin();
 		IdAdmin id = new IdAdmin();
-		NamaAdmin.Input();
-		IdAdmin.Input();
+		Adm.Input();
+		Id.Input();
 		Scanner input = new Scanner(system.in);
 		NamaAdmin = input.nextLine();
 		IdAdmin = input.nextLine();
